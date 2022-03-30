@@ -16,7 +16,7 @@
 		"id":"manaratetrain",
 		"name":"Train mana Rate",
 		"desc":"Increase the rate at which you gain mana",
-		"require":"Mtrain",
+		"locked":false,
 		"at":{
 			"500":{
 				"result.mana.rate":0.01
