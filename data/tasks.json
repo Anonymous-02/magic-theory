@@ -2143,7 +2143,7 @@
 		"at":{
 			"5000":{
 				"result.runner.exp":2
-				"cost.mana":"-50%"
+				"cost.mana":-0.05
 		"every":{
 			"20":{
 				"result.runner.exp":"0.02:20"
