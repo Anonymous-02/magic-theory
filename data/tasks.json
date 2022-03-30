@@ -1,9 +1,9 @@
-[	
+[
 	{
 		"id":"manacaptrain",
 		"name":"train mana capacity",
 		"desc":"increase the size of you mana pool",
-		"locked":false
+		"locked":false,
 		"length":50,
 		"run":{
 			"mana":1
@@ -529,15 +529,15 @@
 	},
 	{
 		"id":"graverob",
-        "name":"Pillage Graves",
-        "desc":"Dig up old graves for magical reagents. These guys are like 300 years old, they won't mind.",
-        "require":"g.dissection>=3",
-        "length":15,
-        "run":{
-            "stamina":0.3
-        },
-        "result":{
-            "bones":2,
+		"name":"Pillage Graves",
+		"desc":"Dig up old graves for magical reagents. These guys are like 300 years old, they won't mind.",
+		"require":"g.dissection>=3",
+		"length":15,
+		"run":{
+			"stamina":0.3
+		},
+		"result":{
+			"bones":2,
 			"virtue":-0.1
 		}, "flavor":"it's for a good cause."
 	},
@@ -644,10 +644,10 @@
 			"shadow":1
 
 		},"effect":{
-			"embalming.exp":0.2,
-			"dissection.exp":0.1,
-			"gold":2.2
-		}
+		"embalming.exp":0.2,
+		"dissection.exp":0.1,
+		"gold":2.2
+	}
 
 	},
 	{
@@ -851,34 +851,34 @@
 	},
 	{
 
-        "id":"indulge",
-        "tags":"t_rest",
-        "verb":"indulging",
-        "owned":true,
+		"id":"indulge",
+		"tags":"t_rest",
+		"verb":"indulging",
+		"owned":true,
 		"slot":"rest",
 		"require":"g.player.level>=9999",
-        "length":10,
-        "need":"g.tier2>0",
-        "fill":[ "stamina", "hp", "prismatic", "stress"],
+		"length":10,
+		"need":"g.tier2>0",
+		"fill":[ "stamina", "hp", "prismatic", "stress"],
 
-        "run":{
+		"run":{
 
 			"gold":25,
 			"research":20
 
-        },
-        "effect":{
+		},
+		"effect":{
 
-            "stress":-2,
-            "prismatic":{
-                "skipLocked":true,
-                "value":1
-            },
-            "stamina":1.2,
-            "hp":2
-        }
+			"stress":-2,
+			"prismatic":{
+				"skipLocked":true,
+				"value":1
+			},
+			"stamina":1.2,
+			"hp":2
+		}
 
-    },
+	},
 	{
 		"id":"slumber",
 		"desc":"The deepest sleep guards the greatest insights.",
@@ -893,12 +893,12 @@
 		"run":{
 			"arcana":0.03
 		},"effect":{
-			"prismatic":0.55,
-			"stamina":1,
-			"hp":1.2,
-			"stress":-1.1,
-			"dreams":0.0003
-		}
+		"prismatic":0.55,
+		"stamina":1,
+		"hp":1.2,
+		"stress":-1.1,
+		"dreams":0.0003
+	}
 	},
 	{
 		"id":"chant",
@@ -1106,8 +1106,8 @@
 				"effect.sp":0.0001
 			},
 			"300":{
-				"effect.research":0.1,
-			}
+				"effect.research":0.1
+			},
 			"500":{
 				"effect.research":0.25,
 				"effect.arcana_max":0.001
@@ -1621,47 +1621,47 @@
 		}
 	},
 	{
-        "id":"remakehammer",
-        "name":"call hammer",
-        "desc":"You forged it once, call forth another.",
-        "verb":"Recalling",
-        "require":"g.maketitanhammer>0",
-        "length":10,
-        "cost":{
-            "earthgem":30,
-            "earthrune":10,
-            "sindel":1
-        },
-        "run":{
-            "stamina":8,
-            "earth":5
-        },
-        "loot":{
-            "titanhammer":1
-        }
-    },
+		"id":"remakehammer",
+		"name":"call hammer",
+		"desc":"You forged it once, call forth another.",
+		"verb":"Recalling",
+		"require":"g.maketitanhammer>0",
+		"length":10,
+		"cost":{
+			"earthgem":30,
+			"earthrune":10,
+			"sindel":1
+		},
+		"run":{
+			"stamina":8,
+			"earth":5
+		},
+		"loot":{
+			"titanhammer":1
+		}
+	},
 	{
-        "id":"maketitanhammer",
-        "name":"titan's hammer",
-        "desc":"The powers of creation and destruction, locked in your grip.",
-        "repeat":false,
-        "verb":"Creating Masterpiece",
-        "require":"g.titan>0&&g.mythicanvil>0",
-        "length":180,
-        "cost":{
-            "earthgem":300,
-            "earthrune":80,
-            "sindel":5,
-            "ichor":5
-        },
-        "run":{
-            "stamina":4,
-            "earth":3
-        },
-        "loot":{
-            "titanhammer":1
-        }
-    },
+		"id":"maketitanhammer",
+		"name":"titan's hammer",
+		"desc":"The powers of creation and destruction, locked in your grip.",
+		"repeat":false,
+		"verb":"Creating Masterpiece",
+		"require":"g.titan>0&&g.mythicanvil>0",
+		"length":180,
+		"cost":{
+			"earthgem":300,
+			"earthrune":80,
+			"sindel":5,
+			"ichor":5
+		},
+		"run":{
+			"stamina":4,
+			"earth":3
+		},
+		"loot":{
+			"titanhammer":1
+		}
+	},
 	{
 		"id":"fazbitfixate",
 		"name":"fazbit's fixations",
@@ -1745,7 +1745,7 @@
 		},
 		"mod":{
 			"unendingscroll.mod.scrolls.rate":"50%",
-			"unendingscroll.max":0.5
+			"unendingscroll.max":0.5,
 			"codices.rate":0.01
 		}
 
@@ -1768,7 +1768,7 @@
 		},
 		"mod":{
 			"unendingcodex.mod.codices.rate":"25%",
-			"unendingcodex.max":1
+			"unendingcodex.max":1,
 			"tomes.rate":0.005
 		}
 
@@ -2137,33 +2137,33 @@
 
 	},
 	{
-		"id":"focus",
-		"desc":"quicken your skills with magic energy.",
-		"require":"mana",
-		"need":"g.runner.hasType('skill')",
-		"at":{
-			"5000":{
-				"result.runner.exp":5
+		"id": "focus",
+		"desc": "quicken your skills with magic energy.",
+		"require": "mana",
+		"need": "g.runner.hasType('skill')",
+		"at": {
+			"5000": {
+				"result.runner.exp": 5
 			}
 		},
-		"every":{
-			"20":{
-				"result.runner.exp":"0.02:20"
+		"every": {
+			"20": {
+				"result.runner.exp": "0.02:20"
 			},
-			"100":{
-				"result.runner.exp":"0.05:100"
+			"100": {
+				"result.runner.exp": "0.05:100"
 			},
-			"1000":{
-				"result.runner.exp":"0.2:1000"
-		},
-		"cost":{
-			"mana":0.1
-		},
-		"result":{
-			"runner.exp":0.2
+			"1000": {
+				"result.runner.exp": "0.2:1000"
+			},
+			"cost": {
+				"mana": 0.1
+			},
+			"result": {
+				"runner.exp": 0.2
+			}
 		}
-
-	},
+	},	
 	{
 		"id":"grind",
 		"require":"g.lore>5&&g.research.max<5",
