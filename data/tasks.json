@@ -1,4 +1,17 @@
-[
+[	
+	{
+		"id":"manacaptrain",
+		"name":"train mana capacity",
+		"desc":"increase the size of you mana pool",
+		"locked":false
+		"length":50,
+		"run":{
+			"mana":1
+		},
+		"mod":{
+			"mana.max":0.1
+		}
+	},
 	{
 		"id":"cleanstables",
 		"name":"clean stables",
@@ -154,26 +167,6 @@
 			"virtue":-1,
 			"gems":"4~10",
 			"gold":200
-		}
-
-	},
-	{
-
-		"id":"manacaptrain",
-		"name":"train mana capacity",
-		"desc":"increase the size of you mana pool",
-		"require":"mana.rate>=2",
-		"length":50,
-		"run":{
-			"mana":1
-		},
-		"effect":{
-			"research":-0.8,
-			"trickery.max":0.001,
-			"trickery.exp":0.5
-		},
-		"mod":{
-			"mana.max":0.1
 		}
 
 	},
