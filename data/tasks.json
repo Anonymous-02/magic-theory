@@ -17,19 +17,11 @@
 		"name":"Train mana Rate",
 		"desc":"Increase the rate at which you gain mana",
 		"locked":false,
-		"at":{
-			"500":{
-				"result.mana.rate":0.01
-			},
-			"2500":{
-				"result.gold":0.03
-			}
-		},
 		"cost":{
 			"mana":5
 		},
 		"result":{
-			"mana.rate":0.01
+			"mana.rate":0.02
 		}, "flavor":"Slow but very useful"
 	},
 	{
