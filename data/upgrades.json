@@ -16,6 +16,23 @@
 
 	},
 	{
+		"id":"manatrain",
+		"name":"Train mana",
+		"desc":"Allow you to train your mana pool size and refill rate",
+		"warn":false,
+		"require":"g.mana.max>=10",
+		"repeat":false,
+		"cost":{
+			"research":500,
+			"arcana":1,
+			"gems":5,
+			"mana":10,
+			"gold":500
+		},
+		"result":"adept"
+
+	},
+	{
 		"id":"slaymaster",
 		"name":"Slay Master",
 		"desc":"Murder your master in their sleep.",
