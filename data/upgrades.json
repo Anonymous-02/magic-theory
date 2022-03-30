@@ -20,7 +20,7 @@
 		"name":"Train mana",
 		"desc":"Allow you to train your mana pool size and refill rate",
 		"warn":false,
-		"require":"g.mana.max>=10",
+		"require":"g.mana.max>=5",
 		"repeat":false,
 		"cost":{
 			"research":500,
