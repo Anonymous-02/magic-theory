@@ -21,7 +21,7 @@
 			"mana":5
 		},
 		"result":{
-			"mana.rate":0.02
+			"mana":10
 		}, "flavor":"Slow but very useful"
 	},
 	{
