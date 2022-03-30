@@ -8,8 +8,10 @@
 		"run":{
 			"mana":1
 		},
+		"result":{
+			"focus.exp":10
 		"mod":{
-			"mana.max":0.1
+			"mana.max":"0.1%"
 		}
 	},
 	{
@@ -34,7 +36,7 @@
 			"mana":5
 		},
 		"mod":{
-			"mana.rate":0.005
+			"mana.rate":"0.1%"
 		}, "flavor":"Slow but very useful"
 	},
 	{
@@ -911,9 +913,9 @@
 			"stress":-1.2,
 			"prismatic":{
 				"skipLocked":true,
-				"value":0.5
+				"value":0.6
 			},
-			"stamina":0.82,
+			"stamina":0.9,
 			"hp":1.1,
 			"light":0.2,
 			"evilamt":-0.1
@@ -1095,15 +1097,18 @@
 			"stamina":0.4
 		},
 		"at":{
-			"30":{
+			"40":{
 				"effect.research":0.05
 			},
-			"120":{
+			"150":{
 				"effect.research":0.1,
 				"effect.sp":0.0001
 			},
+			"300":{
+				"effect.research":0.1,
+			}
 			"500":{
-				"effect.research":0.2,
+				"effect.research":0.25,
 				"effect.arcana_max":0.001
 			}
 		},
@@ -1250,24 +1255,24 @@
 		"require":"g.codices.max>=10&&g.crafting>=3",
 		"warn":true,
 		"cost":{
-			"codices":30
+			"codices":5
 		},
 		"at":{
 			"10":{
-				"result.research.max":5,
+				"result.research.max":2,
 				"result.arcana":0.3
 			},
 			"50":{
-				"result.research.max":5,
+				"result.research.max":3,
 				"result.arcana":0.7
 			},
 			"100":{
-				"result.research.max":10,
+				"result.research.max":5,
 				"result.arcana":1
 			}
 		},
 		"result":{
-			"research.max":10,
+			"research.max":5,
 			"arcana":1
 		}
 
@@ -1369,7 +1374,7 @@
 		"length":20,
 		"cost":{
 			"codices":10,
-			"research":100,
+			"research":50,
 			"mana":10
 		},
 		"fill":"tomes",
@@ -1440,9 +1445,9 @@
 			"research":1
 		},
 		"mod":{
-			"research.max":10,
+			"research.max":20,
 			"languages.max":1,
-			"languages.rate":0.2,
+			"languages.rate":0.25,
 			"naturelore.max":1,
 			"naturelore.rate":0.3
 		}
@@ -1462,11 +1467,11 @@
 			"research":1
 		},
 		"mod":{
-			"research.max":10,
+			"research.max":20,
 			"languages.max":1,
 			"languages.rate":0.2,
 			"crafting.max":1,
-			"crafting.rate":0.3
+			"crafting.rate":0.4
 		},"flavor":"through dungeons deep and caverns old"
 
 	},
@@ -1484,7 +1489,7 @@
 			"research":2
 		},
 		"mod":{
-			"research.max":10,
+			"research.max":30,
 			"languages.max":2,
 			"languages.rate":0.5,
 			"spiritlore.max":2,
@@ -1675,7 +1680,7 @@
 			"alchemy.rate":0.5,
 			"fire.max":1,
 			"mana.max":1,
-			"mana.rate":0.1
+			"mana.rate":0.25
 		},"flavor":"corivar called fazbit a mad crank. but tried to steal his manuals."
 
 	},
@@ -1706,7 +1711,7 @@
 		"require":"g.languages>=7",
 		"desc":"Some scrolls feel interminable.",
 		"length":50,
-		"max":1,
+		"max":2,
 		"cost":{
 			"scrolls":50,
 			"mana":7,
@@ -1739,6 +1744,7 @@
 		},
 		"mod":{
 			"unendingscroll.mod.scrolls.rate":"50%",
+			"unendingscroll.max":0.5
 			"codices.rate":0.01
 		}
 
@@ -1760,7 +1766,8 @@
 			"stamina":5
 		},
 		"mod":{
-			"unendingcodex.mod.codices.rate":"50%",
+			"unendingcodex.mod.codices.rate":"25%",
+			"unendingcodex.max":1
 			"tomes.rate":0.005
 		}
 
@@ -2133,10 +2140,19 @@
 		"desc":"quicken your skills with magic energy.",
 		"require":"mana",
 		"need":"g.runner.hasType('skill')",
+		"at":{
+			"5000":{
+				"result.runner.exp":2
+				"cost.mana":"-50%"
 		"every":{
-			"25":{
-				"result.runner.exp":"0.02:25"
-			}
+			"20":{
+				"result.runner.exp":"0.02:20"
+			},
+			"100":{
+				"result.runner.exp":"0.05:100"
+			},
+			"1000":{
+				"result.runner.exp":"0.2:1000"
 		},
 		"cost":{
 			"mana":0.1
