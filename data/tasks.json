@@ -13,6 +13,26 @@
 		}, "flavor":"it's stable employment"
 	},
 	{
+		"id":"manaratetrain",
+		"name":"Train mana Rate",
+		"desc":"Increase the rate at which you gain mana",
+		"require":"Mtrain",
+		"at":{
+			"500":{
+				"result.mana.rate":0.01
+			},
+			"2500":{
+				"result.gold":0.03
+			}
+		},
+		"cost":{
+			"mana":5
+		},
+		"result":{
+			"mana.rate":0.01
+		}, "flavor":"Slow but very useful"
+	},
+	{
 		"id":"chores",
 		"name":"do chores",
 		"desc":"standard apprentice work.",
