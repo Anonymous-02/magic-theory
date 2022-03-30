@@ -20,8 +20,8 @@
 		"cost":{
 			"mana":5
 		},
-		"result":{
-			"mana":10
+		"mod":{
+			"mana.rate":0.05
 		}, "flavor":"Slow but very useful"
 	},
 	{
