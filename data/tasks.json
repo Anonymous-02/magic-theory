@@ -10,6 +10,7 @@
 		},
 		"result":{
 			"focus.exp":10
+		},
 		"mod":{
 			"mana.max":"0.1%"
 		}
