@@ -2159,11 +2159,11 @@
 			}
 		},
 		"cost": {
-			"mana": 0.2
+			"mana": 0.1
 		},
 		"result": {
 			"runner.exp": 0.2,
-			"mana": 0.1
+			"mana": 0
 		}
 	},	
 	{
