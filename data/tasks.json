@@ -2141,9 +2141,15 @@
 		"desc": "quicken your skills with magic energy.",
 		"require": "mana",
 		"need": "g.runner.hasType('skill')",
+		"at": {
+			"5000": {
+				"result.runner.exp": 5,
+				"result.mana": 0.05
+			}
+		},
 		"every": {
 			"20": {
-				"result.runner.exp": "0.02:25"
+				"result.runner.exp": "0.02:20"
 			},
 			"100": {
 				"result.runner.exp": "0.05:100"
@@ -2153,11 +2159,11 @@
 			}
 		},
 		"cost": {
-				"mana": 0.1
-			},
+			"mana": 0.2
+		},
 		"result": {
-				"runner.exp": 0.2
-			}
+			"runner.exp": 0.2,
+			"mana": 0.1
 		}
 	},	
 	{
