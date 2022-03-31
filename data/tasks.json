@@ -3,7 +3,7 @@
 		"id":"manacapatrain",
 		"name":"train mana capacity",
 		"desc":"increase the size of you mana pool",
-		"locked":false,
+		"require":"Mtrain",
 		"length":50,
 		"run":{
 			"mana":1
@@ -12,7 +12,7 @@
 			"focus.exp":10
 		},
 		"mod":{
-			"mana.max":"0.1%"
+			"mana.max":"1%"
 		}
 	},
 	{
@@ -32,12 +32,12 @@
 		"id":"manaratetrain",
 		"name":"Train mana Rate",
 		"desc":"Increase the rate at which you gain mana",
-		"locked":false,
+		"require":"Mtrain",
 		"cost":{
 			"mana":5
 		},
 		"mod":{
-			"mana.rate":"0.1%"
+			"mana.rate":"1%"
 		}, "flavor":"Slow but very useful"
 	},
 	{
@@ -524,6 +524,9 @@
 		},
 		"effect":{
 			"hp":40
+		},
+		"mod": {
+			"hp.rate": "0.1%"
 		}
 
 	},
