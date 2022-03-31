@@ -27,9 +27,7 @@
 			"arcana":1,
 			"mana":5,
 			"gold":100
-		},
-		"result":"Mtrain"
-
+		}
 	},
 	{
 		"id":"slaymaster",

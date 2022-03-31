@@ -3,7 +3,7 @@
 		"id":"manacapatrain",
 		"name":"train mana capacity",
 		"desc":"increase the size of you mana pool",
-		"require":"Mtrain",
+		"require":"g.manatrain>0",
 		"length":50,
 		"run":{
 			"mana":1
@@ -32,7 +32,7 @@
 		"id":"manaratetrain",
 		"name":"Train mana Rate",
 		"desc":"Increase the rate at which you gain mana",
-		"require":"Mtrain",
+		"require":"g.manatrain>0",
 		"cost":{
 			"mana":5
 		},
@@ -2168,7 +2168,7 @@
 	},	
 	{
 		"id":"grind",
-		"require":"g.lore>=5&&g.research.max<=45",
+		"require":"g.lore>5&&g.research.max<100",
 		"desc":"experiment with magic to expand your research.",
 		"cost":{
 			"mana":0.15
