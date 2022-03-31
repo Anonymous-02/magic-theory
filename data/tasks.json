@@ -1,6 +1,6 @@
 [
 	{
-		"id":"manacaptrain",
+		"id":"manacapatrain",
 		"name":"train mana capacity",
 		"desc":"increase the size of you mana pool",
 		"locked":false,
@@ -2141,11 +2141,6 @@
 		"desc": "quicken your skills with magic energy.",
 		"require": "mana",
 		"need": "g.runner.hasType('skill')",
-		"at": {
-			"5000": {
-				"result.runner.exp": 5
-			}
-		},
 		"every": {
 			"20": {
 				"result.runner.exp": "0.02:20"
