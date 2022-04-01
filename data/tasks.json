@@ -1918,16 +1918,16 @@
 	},
 	{
 		"id":"imbuegoldgem",
-		"name":"create diamond (gold)",
+		"name":"crystalise diamond (gold)",
 		"require":"g.alchemy>=5&&g.anatomy>=5",
-		"fill":"bloodgem",
+		"fill":"goldgem",
 		"tags":"gemimbue",
 		"cost":{
 			"gems":5,
 			"gold":1000,
 			"hp":20
 		},
-		"result":"bloodgem"
+		"result":"goldgem"
 	},
 	{
 		"id":"imbuefiregem",

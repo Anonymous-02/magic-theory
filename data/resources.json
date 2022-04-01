@@ -320,14 +320,14 @@
 		}
 	},
 	{
-		"id":"goldgems",
+		"id":"goldgem",
 		"tags":"magicgems",
 		"group":"gems",
 		"name":"diamond",
 		"desc":"a little magic and a lot of gold",
 		"max":2,
 		"mod":{
-			"invest.moid.gold.rate": "1%",
+			"invest.mod.gold.rate": "1%",
 			"gold.rate": 0.01
 		}
 	},
