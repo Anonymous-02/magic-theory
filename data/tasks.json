@@ -24,7 +24,7 @@
 			"gold": 1000
 		},
 		"mod":{
-			"gold.rate": 0.01
+			"gold.rate": 0.1
 		}
 	},
 	{
@@ -1862,7 +1862,7 @@
 			"gems":1
 		},
 		"result":{
-			"gold":35
+			"gold":50
 		}
 	},
 	{
@@ -2182,6 +2182,18 @@
 		"id":"grind",
 		"require":"g.lore>5&&g.research.max<100",
 		"desc":"experiment with magic to expand your research.",
+		"at": {
+			"100": {
+				"result.research": 0.05
+			},
+			"500": {
+				"result.research": 0.05,
+				"result.research.max": 0.05
+			},
+			"1000": {
+				"result.research.rate": 0.001
+			}
+		},
 		"cost":{
 			"mana":0.15
 		},
