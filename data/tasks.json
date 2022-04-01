@@ -5,6 +5,9 @@
 		"desc":"increase the size of you mana pool",
 		"require":"g.manatrain>0",
 		"length": 50,
+		"cost": {
+			"mana": 10
+		},
 		"run":{
 			"mana":1
 		},
