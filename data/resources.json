@@ -31,7 +31,7 @@
 	{
 
 		"id":"starcharts",
-		"desc":"星星的地图",
+		"desc":"map of the stars",
 		"max":10,
 		"mod":{
 			"research.max":1,
@@ -317,6 +317,18 @@
 		"max":2,
 		"mod":{
 			"hp.max":1
+		}
+	},
+	{
+		"id":"goldgems",
+		"tags":"magicgems",
+		"group":"gems",
+		"name":"diamond",
+		"desc":"a little magic and a lot of gold",
+		"max":2,
+		"mod":{
+			"invest.moid.gold.rate": "1%",
+			"gold.rate": 0.01
 		}
 	},
 	{

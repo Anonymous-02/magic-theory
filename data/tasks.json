@@ -20,6 +20,11 @@
 		"name":"invest",
 		"desc":"invest money to get interest",
 		"require":"g.gold.max>1000",
+		"every": {
+			"500": {
+				"mod.gold.rate": "10%"
+			}
+		},
 		"cost": {
 			"gold": 1000
 		},
@@ -1904,6 +1909,19 @@
 			"gems":1,
 			"earth":1,
 			"water":1,
+			"hp":20
+		},
+		"result":"bloodgem"
+	},
+	{
+		"id":"imbuebloodgem",
+		"name":"create diamond (gold)",
+		"require":"g.alchemy>=5&&g.anatomy>=5",
+		"fill":"bloodgem",
+		"tags":"gemimbue",
+		"cost":{
+			"gems":5,
+			"gold":1000,
 			"hp":20
 		},
 		"result":"bloodgem"
