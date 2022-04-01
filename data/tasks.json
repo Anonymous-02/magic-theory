@@ -4,8 +4,9 @@
 		"name":"train mana capacity",
 		"desc":"increase the size of you mana pool",
 		"require":"g.manatrain>0",
-		"cost":{
-			"mana":"100%"
+		"length": 50,
+		"run":{
+			"mana":1
 		},
 		"mod":{
 			"mana.max":"1%"
