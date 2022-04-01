@@ -16,6 +16,18 @@
 		}
 	},
 	{
+		"id":"invest",
+		"name":"invest",
+		"desc":"invest money to get interest",
+		"require":"g.gold.max>1000",
+		"cost": {
+			"gold": 1000
+		},
+		"mod":{
+			"gold.rate": 0.01
+		}
+	},
+	{
 		"id":"cleanstables",
 		"name":"clean stables",
 		"desc":"working from home.",
