@@ -1914,7 +1914,7 @@
 		"result":"bloodgem"
 	},
 	{
-		"id":"imbuebloodgem",
+		"id":"imbuegoldgem",
 		"name":"create diamond (gold)",
 		"require":"g.alchemy>=5&&g.anatomy>=5",
 		"fill":"bloodgem",
