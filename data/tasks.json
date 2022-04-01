@@ -5,7 +5,7 @@
 		"desc":"increase the size of you mana pool",
 		"require":"g.manatrain>0",
 		"cost":{
-			"mana":"mana.max"
+			"mana":"100%"
 		},
 		"mod":{
 			"mana.max":"1%"
