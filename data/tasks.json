@@ -2250,9 +2250,6 @@
 		"cost":{
 			"mana":0.15
 		},
-		"result":{
-			"research":0.05
-		},
 		"mod": {
 			"research.max":0.05
 		}
