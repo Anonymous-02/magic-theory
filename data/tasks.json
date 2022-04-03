@@ -1133,7 +1133,14 @@
 			},
 			"500":{
 				"effect.research":0.25,
-				"effect.arcana_max":0.001
+				"effect.arcana_max":0.001,
+				"effect.sp":0.0001
+			},
+			"1000": {
+				"effect.sp":0.0001
+			},
+			"2000": {
+				"effect.sp":0.0001
 			}
 		},
 		"effect":{
