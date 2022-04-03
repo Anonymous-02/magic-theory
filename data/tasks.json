@@ -1923,13 +1923,12 @@
 	{
 		"id":"imbuegoldgem",
 		"name":"crystalise diamond (gold)",
-		"require":"g.alchemy>=5&&g.anatomy>=5",
+		"require":"g.alchemy>=5&&g.gold.rate>=1",
 		"fill":"goldgem",
 		"tags":"gemimbue",
 		"cost":{
 			"gems":5,
-			"gold":1000,
-			"hp":20
+			"gold":1000
 		},
 		"result":"goldgem"
 	},
