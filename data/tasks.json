@@ -2251,8 +2251,8 @@
 			"mana":0.15
 		},
 		"result":{
-			"research.max":0.05,
-			"research":0.05
+			"g.research.max":0.05,
+			"g.research":0.05
 		}
 
 	},
