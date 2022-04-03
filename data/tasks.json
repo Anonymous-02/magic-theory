@@ -2233,7 +2233,7 @@
 	},	
 	{
 		"id":"grind",
-		"require":"g.lore>5&&research.max<100",
+		"require":"g.lore>5&&g.research.max<100",
 		"desc":"experiment with magic to expand your research.",
 		"at": {
 			"100": {
@@ -2241,21 +2241,18 @@
 			},
 			"500": {
 				"result.research": 0.05,
-				"mod.research.max": 0.05
+				"result.research.max": 0.05
 			},
 			"1000": {
-				"mod.research.rate": 0.001
+				"result.research.rate": 0.001
 			}
 		},
 		"cost":{
 			"mana":0.15
 		},
 		"result":{
-			"research":0.05
-		},
-		"mod": {
 			"research.max":0.05,
-			"research.rate": 0
+			"research":0.05
 		}
 
 	},
