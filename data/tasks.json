@@ -25,8 +25,8 @@
 			"mana": 20
 		},
 		"mod":{
-			"manacapatrain.length":-10,
-			"manacapatrain.cost.mana": 10
+			"g.manacapatrain.length":-10,
+			"g.manacapatrain.cost.mana": 10
 		}
 	},
 	{
@@ -36,7 +36,7 @@
 		"require":"g.manatrain>0&&g.manacapatrain>10&&g.mana.rate>1",
 		"cost": {
 			"gems": 10,
-			"mana": 10
+			"mana": 20
 		},
 		"mod":{
 			"g.manacapatrain.length":-20,
