@@ -969,6 +969,7 @@
 		"name":"mana train upgrade",
 		"desc":"increase starting cost of action 'train mana capacity' and reduce the time it takes to finish",
 		"require":"g.manatrain>0&&g.manacapatrain>10&&g.mana.max>20",
+		"max": 1,
 		"cost": {
 			"gems": 10,
 			"mana": 20
@@ -983,6 +984,7 @@
 		"name":"mana train upgrade speed",
 		"desc":"increase running cost of action 'train mana capacity' and reduce the time it takes to finish",
 		"require":"g.manatrain>0&&g.manacapatrain>10&&g.mana.rate>1",
+		"max": 1,
 		"cost": {
 			"gems": 10,
 			"mana": 10
