@@ -2233,7 +2233,7 @@
 	},	
 	{
 		"id":"grind",
-		"require":"g.lore>5&&g.research.max<100",
+		"require":"g.lore>5&&research.max<100",
 		"desc":"experiment with magic to expand your research.",
 		"at": {
 			"100": {
@@ -2254,7 +2254,7 @@
 			"research":0.05
 		},
 		"mod": {
-			"g.research.max":0.05,
+			"research.max":0.05,
 			"research.rate": 0
 		}
 
