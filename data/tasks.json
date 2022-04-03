@@ -2241,7 +2241,7 @@
 			},
 			"500": {
 				"result.research": 0.05,
-				"mod.research.max": 0.05
+				"result.research.max": 0.05
 			},
 			"1000": {
 				"result.research.rate": 0.001
@@ -2249,6 +2249,9 @@
 		},
 		"cost":{
 			"mana":0.15
+		},
+		"result":{
+			"research":0.05
 		},
 		"mod": {
 			"research.max":0.05
