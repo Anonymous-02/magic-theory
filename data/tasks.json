@@ -2240,7 +2240,8 @@
 				"result.research": 0.05
 			},
 			"500": {
-				"result.research": 0.05
+				"result.research": 0.05,
+				"result.research.max": 0.05
 			},
 			"1000": {
 				"result.research": 0.05
@@ -2253,7 +2254,8 @@
 			"research":0.05
 		},
 		"mod": {
-			"research.max":0.05
+			"research.max":0.05,
+			"research.rate": 0.0002
 		}
 
 	},
