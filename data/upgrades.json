@@ -974,8 +974,8 @@
 			"mana": 20
 		},
 		"mod":{
-			"g.manacapatrain.length":-10,
-			"g.manacapatrain.cost.mana": 10
+			"manacapatrain.length":-10,
+			"manacapatrain.cost.mana": 10
 		}
 	},
 	{
@@ -988,8 +988,8 @@
 			"mana": 10
 		},
 		"mod":{
-			"g.manacapatrain.length":-20,
-			"g.manacapatrain.run.mana": 1
+			"manacapatrain.length":"-50%",
+			"manacapatrain.run.mana": 1
 		}
 	},
 	{
