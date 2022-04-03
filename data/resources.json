@@ -328,7 +328,7 @@
 		"max":2,
 		"mod":{
 			"invest.mod.gold.rate": "1%",
-			"gold.rate": 0.01
+			"gold.rate": "1%"
 		}
 	},
 	{
