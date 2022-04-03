@@ -19,7 +19,7 @@
 		"id":"manacapaupcost",
 		"name":"mana train upgrade",
 		"desc":"increase starting cost of action 'train mana capacity' and reduce the time it takes to finish",
-		"require":"g.manatrain>0&&g.manacapatrain>10&&g.mana.max>20",
+		"require":"g.manatrain>0&&manacapatrain>10&&mana.max>20",
 		"cost": {
 			"gems": 10,
 			"mana": 20
