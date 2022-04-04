@@ -1010,7 +1010,7 @@
 			"mana": 10
 		},
 		"mod":{
-			"manacapatrain.length":"-50%",
+			"manacapatrain.length":"-30%",
 			"manacapatrain.run.mana": 1
 		}
 	},
