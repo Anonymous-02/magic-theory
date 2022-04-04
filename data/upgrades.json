@@ -29,10 +29,24 @@
 			"mana": 25
 		},
 		"mod": {
-			"bindcodex.cost.scrolls": -1,
-			"bindcodex.cost.research": -1,
-			"compiletome.cost.codices": -1,
+			"scribescroll.cost.research": "-10%",
+			"bindcodex.cost.scrolls": "-10%",
+			"bindcodex.cost.research": "-10%",
+			"compiletome.cost.codices": "-10%",
+			"compiletome.cost.research": "-10%",
 			"compiletome.length": "-10%"
+		}
+	},
+	{
+		"id": "manafeather",
+		"name": "mana infused feather",
+		"desc": "by chanelling mana trough this feather, you increase efficiency when writing scrolls and codices",
+		"cost":{
+			"arcana": 25,
+			"mana": 50,
+			"managem": 25,
+			"gold": 2000,
+			"research": 1000
 		}
 	},
 	{
