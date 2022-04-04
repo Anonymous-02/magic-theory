@@ -41,12 +41,20 @@
 		"id": "manafeather",
 		"name": "mana infused feather",
 		"desc": "by chanelling mana trough this feather, you increase efficiency when writing scrolls and codices",
+		"require": "g.mana.max>=50&&g.scribescroll>=1000",
+		"max": 1,
 		"cost":{
 			"arcana": 25,
 			"mana": 50,
 			"managem": 25,
 			"gold": 2000,
 			"research": 1000
+		},
+		"mod": {
+			"scribescroll.cost.mana": "-50%",
+			"bindcodex.cost.mana": "-50%",
+			"compiletome.cost.mana": "-10%",
+			"compiletome.length": "-10%"
 		}
 	},
 	{
