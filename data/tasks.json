@@ -3,6 +3,7 @@
 		"id":"manacapatrain",
 		"name":"train mana capacity",
 		"desc":"increase the size of you mana pool",
+		"perpetual": true,
 		"require":"g.manatrain>0",
 		"length": 40,
 		"cost": {
