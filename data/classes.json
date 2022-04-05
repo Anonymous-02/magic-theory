@@ -329,10 +329,9 @@
 	"require":"g.trickery>=7&&g.tier1>0&&g.tier2==0",
 	"cost":{
 		"research":777,
-		"gems":7,
-		"managem":7,
-		"airgem":7,
-		"watergem":7,
+		"gems":14,
+		"managem":14,
+		"goldgem":14,
 		"tomes":7,
 		"gold":777,
 		"arcana":7
