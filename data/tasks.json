@@ -2190,16 +2190,16 @@
 		"need": "g.runner.hasType('skill')",
 		"every": {
 			"20": {
-				"result.runner.exp": "0.02:20"
+				"result.runner.exp": "10%:20"
 			},
 			"100": {
-				"result.runner.exp": "0.05:100"
+				"result.runner.exp": "25%:100"
 			},
 			"1000": {
-				"result.runner.exp": "0.25:1000"
+				"result.runner.exp": "125%:1000"
 			},
 			"50000": {
-				"result.mana": "0.25:50000"
+				"cost.mana": "-0.05:50000"
 			}
 		},
 		"cost": {
@@ -2207,7 +2207,6 @@
 		},
 		"result": {
 			"runner.exp": 0.2,
-			"mana": 0
 		}
 	},	
 	{
