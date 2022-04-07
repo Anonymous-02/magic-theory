@@ -16,20 +16,6 @@
 
 	},
 	{
-		"id":"betterfocus",
-		"name":"better focus",
-		"desc":"greatly increase your ability to focus while reducing the cost",
-		"require":"g.lore>20&&g.focus>10000",
-		"cost":{
-			"research":20000,
-			"gems":250,
-			"runestones": 40
-		},
-		"mod":{
-			"focus.result.runner.exp": 10
-		}
-	},
-	{
 		"id": "thinbook",
 		"name": "thinner book",
 		"require": "g.scrolls.max>=100&&g.research.max>=2000&&g.bindcodex>=100",
