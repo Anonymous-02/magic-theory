@@ -2199,7 +2199,7 @@
 				"result.runner.exp": "0.25:1000"
 			},
 			"50000": {
-				"result.mana": "0.25:50000"
+				"result.mana": "0.05:50000"
 			}
 		},
 		"cost": {
