@@ -24,6 +24,9 @@
 			"research":20000,
 			"gems":250,
 			"runestones": 40
+		},
+		"mod":{
+			"focus.every.20.result.runner.exp":"1:20"
 		}
 	},
 	{
